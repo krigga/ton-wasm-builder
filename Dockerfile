@@ -20,8 +20,8 @@ WORKDIR /libs
 
 RUN git clone --depth 1 https://github.com/emscripten-core/emsdk.git
 WORKDIR /libs/emsdk
-RUN ./emsdk install 3.1.19
-RUN ./emsdk activate 3.1.19
+RUN ./emsdk install 4.0.9
+RUN ./emsdk activate 4.0.9
 ENV EMSDK_DIR=/libs/emsdk
 
 WORKDIR /libs
